@@ -2,5 +2,6 @@
 #
 # Build with maven before running this script.
 # mvn install
+CURRENT_DIR=$(cd $(dirname $0) && pwd)
 
-java -cp target/aerospike-load-*-jar-with-dependencies.jar com.aerospike.load.AerospikeLoad $*
+java -cp ${CURRENT_DIR}/target/aerospike-load-*-jar-with-dependencies.jar com.aerospike.load.AerospikeLoad
