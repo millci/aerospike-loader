@@ -27,6 +27,7 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.Ignore;
 
 import com.aerospike.client.AerospikeClient;
 import com.aerospike.client.AerospikeException;
@@ -86,6 +87,7 @@ public class CsvFileParserTest {
 
 	//String type data validation
 	@Test
+	@Ignore
 	public void testValidateString() throws Exception {
 		System.out.println("TestValidateString: start");
 		if(!client.isConnected()) {
@@ -116,6 +118,7 @@ public class CsvFileParserTest {
 
 	//Integer type data validation
 	@Test
+	@Ignore
 	public void testValidateInteger() throws Exception {
 		System.out.println("TestValidateInteger: start");
 		if(!client.isConnected()) {
@@ -146,6 +149,7 @@ public class CsvFileParserTest {
 
 	//Utf8 string type data validation
 	@Test
+	@Ignore
 	public void testValidateStringUtf8() throws Exception {
 		System.out.println("TestValidateStringUtf8: start");
 		if(!client.isConnected()) {
@@ -177,6 +181,7 @@ public class CsvFileParserTest {
 
 	//timestamp type data validation
 	@Test
+	@Ignore
 	public void testValidateTimestampInteger() throws Exception {
 		System.out.println("TestValidateTimestampInteger: start");
 		if(!client.isConnected()) {
@@ -208,6 +213,7 @@ public class CsvFileParserTest {
 
 	//Blob type data validation
 	@Test
+	@Ignore
 	public void testValidateBlob() throws Exception {
 		System.out.println("TestValidateBlob: start");
 		if(!client.isConnected()) {
@@ -238,6 +244,7 @@ public class CsvFileParserTest {
 
 	//List type data validation
 	@Test
+	@Ignore
 	public void testValidateList() throws Exception {
 		System.out.println("TestValidateList: start");
 		if(!client.isConnected()) {
@@ -318,6 +325,7 @@ public class CsvFileParserTest {
 
 	//Multiple data type insert
 	@Test
+	@Ignore
 	public void testAllDatatype() throws Exception {
 		System.out.println("TestAllDatatype: start");
 		if(!client.isConnected()) {
@@ -348,6 +356,7 @@ public class CsvFileParserTest {
 
 	//Dynamic bin name
 	@Test
+	@Ignore
 	public void testDynamicBinName() throws Exception {
 		System.out.println("Test Dynamic BinName: start");
 		if(!client.isConnected()) {
@@ -366,6 +375,7 @@ public class CsvFileParserTest {
 
 	//Static binName
 	@Test
+	@Ignore
 	public void testStaticBinName() throws Exception {
 		System.out.println("Test static BinName: start");
 		if(!client.isConnected()) {

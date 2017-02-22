@@ -14,7 +14,7 @@
      	"value": {"column_name": "segments", "type" : "list"}
     	},
     	{"name": "l-segments",
-     	"value": {"column_name": "l-segments", "type" : "llist"}
+     	"value": {"column_name": "l-segments", "type" : "list"}
     	},
 	    {
 	      "name":"name",

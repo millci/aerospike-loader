@@ -5,7 +5,7 @@
 
 	"key": {"column_name":"key", "type": "String"},
 
-	"set": {"column_name":"set" },
+	"set": {"column_name":"set", "type": "string"},
 
   
 	"binlist": [  
